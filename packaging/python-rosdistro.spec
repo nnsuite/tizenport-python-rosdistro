@@ -1,5 +1,5 @@
 Name:           python-rosdistro
-Version:        0.6.2	
+Version:        0.6.2
 Release:        0%{?dist}
 License:        BSD, MIT
 Summary:        A tool to work with rosdistro files
@@ -15,13 +15,13 @@ BuildRequires:  python-mock
 BuildRequires:  python-PyYAML
 Requires:       python-argparse
 Requires:       python-PyYAML
-	
+
 %description
 A tool to work with rosdistro files
 
 %prep
 %setup -q
-cp %{SOURCE1001} .	
+cp %{SOURCE1001} .
 
 %build
 %{__python} setup.py build
