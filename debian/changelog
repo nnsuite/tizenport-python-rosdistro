@@ -1,0 +1,5 @@
+python-rosdistro-modules (0.8.3-1) xenial yakkety zesty artful bionic cosmic disco eoan jessie stretch buster; urgency=low
+
+  * source package automatically created by stdeb 0.9.1
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 28 Sep 2020 14:25:31 +0000
