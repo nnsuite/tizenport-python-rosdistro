@@ -10,7 +10,7 @@ X-Python3-Version: >= 3.4
 
 Package: python-rosdistro
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, ca-certificates, python-argparse, python-rosdistro-modules (>= 0.8.3), python-setuptools, python-yaml
+Depends: ${misc:Depends}, ${python:Depends}, ca-certificates, python-argparse, python-rosdistro-modules (>> 0.8.2), python-setuptools, python-yaml
 Conflicts: python3-rosdistro
 Description: A tool to work with rosdistro files
  A tool to work with rosdistro files
